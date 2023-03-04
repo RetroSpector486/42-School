@@ -46,10 +46,10 @@ $(NAME):
 all: $(NAME)
 
 clean:
-		rm -f $(NAME)
+		rm -f $(OBJS) $(NAME)
 
 fclean: clean
-		rm -f $(NAME)
+		rm -f $(OBJS) $(NAME)
 
 re: fclean all
 
